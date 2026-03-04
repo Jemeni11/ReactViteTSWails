@@ -19,4 +19,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    watch: {
+      // See https://github.com/wailsapp/wails/issues/3903
+      ignored: ["**/wailsjs/**"],
+    },
+  },
 });

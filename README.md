@@ -17,7 +17,7 @@ Table of Contents
 
 Hey! This is a Wails template with the following installed:
 
-- [Wails](https://wails.io/)
+- [Wails v2.11](https://wails.io/)
 - [Vite v7](https://vite.dev/)
 - [React v19](https://react.dev/)
 - [Typescript v5](https://www.typescriptlang.org/)
@@ -51,11 +51,18 @@ wails init -n my-project -t https://github.com/Jemeni11/ReactViteTSWails
 To run in live development mode, run `wails dev` in the project directory. Wails will
 automatically start the frontend dev server.
 
+If you prefer to develop and debug using your browser (with full access to React DevTools), you can navigate to `http://localhost:34115`.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Building
 
 To build a redistributable, production mode package, use `wails build`.
+
+This will compile your application and place the final, executable binary inside the `build/bin/` directory.
+
+_(Optional)_ To cross-compile for a different platform (e.g., building a Windows executable from a Mac), append the `-platform` flag:
+`wails build -platform windows/amd64`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

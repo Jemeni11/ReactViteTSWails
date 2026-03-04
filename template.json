@@ -1,0 +1,7 @@
+{
+  "name": "ReactViteTSWails",
+  "shortname": "ReactViteTSWails",
+  "author": "Jemeni11 <jemenichinonso11@gmail.com>",
+  "description": "React + Vite + TypeScript + TailwindCSS + Prettier + ESLint + Stylelint + lint-staged + husky",
+  "helpurl": "https://github.com/Jemeni11/ReactViteTSWails"
+}

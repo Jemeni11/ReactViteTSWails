@@ -1,0 +1,100 @@
+# Frontend (React / Vite / TypeScript / TailwindCSS / ESLint / Stylelint / Prettier)
+
+# Dependencies
+frontend/node_modules
+
+# Build output
+frontend/dist
+frontend/dist-ssr
+
+# Vite
+frontend/vite.config.js.timestamp-*
+frontend/vite.config.ts.timestamp-*
+frontend/.vite/
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# TypeScript
+frontend/*.tsbuildinfo
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/bun-debug.log*
+
+# Cache
+frontend/.npm
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.prettier-cache
+frontend/.node_repl_history
+
+# Package managers
+frontend/.pnpm-store
+frontend/.pnp
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/sdks
+!frontend/.yarn/versions
+
+# Backend (Go / Wails)
+# Based on https://github.com/github/gitignore/blob/main/Go.gitignore
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build binaries directory
+build/bin
+
+# Test artifacts
+*.test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories
+# vendor/
+
+# General
+
+# OS
+.DS_Store
+__MACOSX/
+
+# Husky
+.husky/_
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+.idea/
+.zed/

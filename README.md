@@ -18,7 +18,7 @@ Table of Contents
 Hey! This is a Wails template with the following installed:
 
 - [Wails v2.11](https://wails.io/)
-- [Vite v7](https://vite.dev/)
+- [Vite v8](https://vite.dev/)
 - [React v19](https://react.dev/)
 - [Typescript v5](https://www.typescriptlang.org/)
 - [TailwindCSS v4](https://tailwindcss.com/)

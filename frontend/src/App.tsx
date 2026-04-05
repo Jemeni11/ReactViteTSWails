@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { Greet } from "./wailsjs/go/main/App";
 
 export default function App() {

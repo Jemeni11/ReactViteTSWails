@@ -17,10 +17,10 @@ Table of Contents
 
 Hey! This is a Wails template with the following installed:
 
-- [Wails v2.11](https://wails.io/)
+- [Wails v2.12](https://wails.io/)
 - [Vite v8](https://vite.dev/)
 - [React v19](https://react.dev/)
-- [Typescript v5](https://www.typescriptlang.org/)
+- [Typescript v6](https://www.typescriptlang.org/)
 - [TailwindCSS v4](https://tailwindcss.com/)
 - [Prettier v3](https://prettier.io/)
 - [prettier-plugin-tailwind v0.6.14](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)

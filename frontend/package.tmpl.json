@@ -40,8 +40,10 @@
     "lint-staged": "^16.3.2",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "stylelint": "^17.4.0",
+    "stylelint": "^17.6.0",
+    "stylelint-config-clean-order": "^8.0.1",
     "stylelint-config-standard": "^40.0.0",
+    "stylelint-order": "^8.1.1",
     "typescript": "^6.0.2",
     "typescript-eslint": "^8.57.2",
     "vite": "^8.0.3"
